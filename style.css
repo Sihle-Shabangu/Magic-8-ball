@@ -1,0 +1,49 @@
+*{
+    padding: auto;
+    margin: auto;
+    background-color: aqua;
+}
+
+h2{
+    border-bottom: 1px ;
+    margin-bottom: 2em;
+    box-shadow: 2px 2px 20px 2px #888888;
+    padding: 1em;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    font-size: 2em;
+}
+
+#ball{
+    display: flex;
+}
+
+/* extra small devices */
+@media only screen and (max-width: 600px) {
+    .ball img{
+        width: 65%;
+    }
+}
+
+/* small devicess */
+@media only screen and (min-width: 600px) {
+    .ball img{
+        width: 55%;
+    }
+}
+
+/* medium devices */
+@media only screen and (min-width: 768px) {
+    .ball img{
+        width: 50%;
+    }
+}
+
+/* large devices */
+@media only screen and (min-width: 992px) {
+    .ball img{
+        width: 30%;
+    }
+}
+
